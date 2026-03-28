@@ -1,0 +1,110 @@
+/* css styling for header and landing page*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navBar{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 9vh;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    img{
+        height: 70px;
+        width: 80x;
+    }
+    background-color: white;
+}
+    
+.ara{
+    display: flex;
+    flex-grow: 2;
+    margin: 0px 10px;
+}
+.araf{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+    justify-content: center;
+}
+.logo{
+    flex: 0.5 1 16rem;
+}
+/*Main Page*/
+#mainContainer{
+    min-height: 45vh;
+    width: 100%;
+    display: flex;
+}
+.firstContainer{
+    width: 90%;
+    margin: auto;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 120px;
+        text-align: center;
+        line-height: 115px;
+        padding: 3rem 0rem;
+    }
+    p{
+        font-size: 20px;
+        padding-left: 3rem;
+    }
+    button{
+        padding: 1rem 1rem;
+        margin: 2rem 0rem 4rem 4rem;
+    }
+    img{
+        height: 70px;
+        width: 80px;
+        margin: 2rem 1rem 1rem 4rem;
+}
+.pic{
+    flex: 1 1 16rem;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+.card{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex: 1 1 16rem;
+    padding-left: 1.5rem;
+    }
+.secondContainer{
+    width: 100%;
+    margin: auto;
+    min-height: 40vh;
+    background-color: rgb(224, 107, 64);
+    h1{
+        font-size: 80px;
+        text-align: center;
+        line-height: 115px;
+        padding: 3rem 0rem
+    }
+    .first{
+        font-size: 20px;
+        margin-bottom: 4rem;
+        padding-left: 4rem;
+    }
+}
+.ic{
+    flex: 1 1 16rem;
+    padding: 1rem 2rem 0rem 2rem;
+    background-color:white;
+    border-radius: 50px;
+    height: 150px;
+    width: 50px;
+    margin:3rem 5rem;
+}
